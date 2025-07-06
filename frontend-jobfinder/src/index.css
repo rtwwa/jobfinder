@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+.modal-overlay {
+  position: fixed !important;
+  z-index: 9999 !important;
+}
+
+.modal-content {
+  position: relative !important;
+  z-index: 10000 !important;
+}
+
+.modal-open .leaflet-container {
+  z-index: 1 !important;
+}
+
+.modal-overlay,
+.modal-content {
+  position: fixed !important;
+  z-index: 9999 !important;
+}
+
+.modal-content {
+  z-index: 10000 !important;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
